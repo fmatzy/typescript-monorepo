@@ -1,6 +1,7 @@
 {
   "name": "typescript-monorepo",
   "version": "0.0.0",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "bootstrap": "lerna clean -y && lerna bootstrap",
