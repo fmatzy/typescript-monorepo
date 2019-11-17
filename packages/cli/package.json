@@ -1,0 +1,13 @@
+{
+  "name": "@fmatzy/cli",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js"
+  },
+  "dependencies": {
+    "@fmatzy/shared": "^0.0.0"
+  }
+}

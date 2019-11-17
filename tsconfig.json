@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": {
+      "@fmatzy/*": ["./packages/*/src"]
+    }
+  },
+  "include": [
+    "./packages/*/src"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "typescript-monorepo",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna clean -y && lerna bootstrap",
+    "build": "tsc -b ./packages/cli/tsconfig.build.json",
+    "clean": "rimraf \"./packages/*/{dist,*.tsbuildinfo}\"",
+    "start": "cd ./packages/cli && npm run start"
+  },
+  "devDependencies": {
+    "lerna": "^3.18.4",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.2"
+  }
+}
